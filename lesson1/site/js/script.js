@@ -1,12 +1,15 @@
 var yourBudget = prompt("Ваш бюджет");
-var nameShop = prompt("Название вашего магазна")
+var nameShop = prompt("Название вашего магазна");
+var shopGoods ;
+var mainList ;
+var employers ;
 
-var mainList = {
-	yourBudget: yourBudget,
-	nameShop: nameShop,
-	shopGoods: [],
-	employers: {},
-	open: false 
+mainList = {
+	yourBudget: 0,// числовое знеачени
+	nameShop: "",// строчное значение
+	shopGoods: [], //масив
+	employers: {}, //обьект
+	open: false // буливое
 }
 
 mainList.shopGoods[0] = prompt("Какой тип товаров будет продоваться?");
