@@ -1,0 +1,20 @@
+html,
+body,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+/* секция 11111111111111111111111111111111111111111111111111111111111
+111111111111111111111111111111111111111111111111111111111111111111111
+11111111111111111111111111111111111111111111111111 */
+img {
+  width: 100%;
+}
+h1 {
+  margin: 0;
+}
